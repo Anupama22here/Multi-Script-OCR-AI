@@ -55,9 +55,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install Python dependencies
 pip install -r requirements.txt
-
-# The Brahmi model should be placed at:
-# /Users/anupamar/Documents/ee/model/best_model.h5
 ```
 
 ### 3. Frontend Setup
@@ -196,33 +193,8 @@ tamil-ocr/
 - Backend: Add `debug=True` in uvicorn.run()
 - Frontend: Use browser developer tools for debugging
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
-
-- **ocr_tamil**: For Tamil OCR capabilities
-- **Aksharamukha**: For script transliteration
-- **TensorFlow/Keras**: For machine learning framework
-- **React.js**: For the frontend framework
-- **FastAPI**: For the backend framework
-
-## Support
-
-For support and questions:
-- Create an issue on GitHub
-- Contact: support@tamilocr.com
-- Documentation: [Link to docs]
-
 ---
-
-Built with ❤️ for Tamil language processing and preservation.
